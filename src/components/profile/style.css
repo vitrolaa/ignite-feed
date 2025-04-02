@@ -1,0 +1,38 @@
+.card {
+  width: 256px;
+  height: 294px;
+  background-color: var(--gray-cards);
+  position: absolute;
+}
+
+.informacoes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  color: white;
+}
+
+.informacoes h2 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.informacoes p {
+  color: var(--gray-text-apoi);
+  font-size: 14px;
+}
+
+.fotoPerfil {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  top: -35px;
+  background-color: var(--gray-cards);
+  border-radius: 8px;
+}
